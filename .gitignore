@@ -1,0 +1,63 @@
+# --- Dependencies ---
+node_modules/
+
+# --- Build & output ---
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.turbo/
+*.tsbuildinfo
+
+# --- Environment & secrets ---
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Editor / IDE ---
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.sw?
+*~
+
+# --- Testing & coverage ---
+coverage/
+.nyc_output/
+*.lcov
+
+# --- Cache & tooling lokal ---
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.pem
+
+# --- Misc (opsional) ---
+# .neon/ — cache CLI Neon lokal (jika dipakai di root)
+.neon/
+
+# --- Bat ---
+*.bat
+
+# --- Cursor ---
+.cursor/
+
+# --- Frontend & Backend ---
+/frontend
+/backend
